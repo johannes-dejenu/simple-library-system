@@ -1,10 +1,9 @@
 public class Book{
+    private BookInfo info;
+    private BookStatus status;
+    
 
-    public record BookInfo(String title, String author, int price){}
 
-    enum BookStatus {
-        AVAILABLE,
-        BORROWED
-    }
 
+    
 }
