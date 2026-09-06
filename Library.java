@@ -22,7 +22,7 @@ public class Library{
     }
     public void displayBooks(){
         for(Book book: books){
-            System.out.println(book.ti);
+            System.out.println(book.getInfo().title());
         }
     }
     public void displayMembers(){
@@ -40,9 +40,12 @@ public class Library{
         System.out.println("registering member to the " + getName() + " Library.");
     }
     public void borrowBook(Book book){
-
+        book.setStatus(BookStatus.BORROWED);
     }
-    public void returnBook(Book book){}
+    public void returnBook(Book book){
+        book.setStatus(BookStatus.AVAILABLE);
+    }
+
 
 
 
