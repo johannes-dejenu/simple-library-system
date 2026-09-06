@@ -11,6 +11,16 @@ public class Library{
     public String getName(){
         return name;
     }
+    public void displayBooks(){
+        for(Book book: books){
+
+        }
+    }
+    public void displayMembers(){
+        for (Member member: members){
+            
+        }
+    }
 
     
     
@@ -23,8 +33,13 @@ public class Library{
     }
 
     public void addBook(Book book){
-
+        System.out.println("adding book to the " + getName() + " Library." );
+        books.add(book);
+        System.out.println("book added successfully.");
     }
+    public void registerMember(Member member){}
+    public void borrowBook(Book book){}
+    public void returnBook(Book book){}
 
 
 
