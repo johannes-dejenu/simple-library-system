@@ -2,6 +2,9 @@ public class Book{
     private BookInfo info;
     private BookStatus status;
 
+    public void setInfo(BookInfo info){
+        this.info = info;
+    }
     public BookInfo getInfo(){
         return info;
     }

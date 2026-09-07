@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 public class Library{
     private final String name;
-    private ArrayList<Book> books;
-    private ArrayList<Member> members; 
+    private ArrayList<Book> books = new ArrayList<>();
+    private ArrayList<Member> members = new ArrayList<>(); 
 
     public Library(String name){
         this.name = name;
