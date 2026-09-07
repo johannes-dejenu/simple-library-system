@@ -2,7 +2,6 @@ public class Book{
     private BookInfo info;
     private BookStatus status;
 
-
     public BookInfo getInfo(){
         return info;
     }
