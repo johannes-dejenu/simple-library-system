@@ -26,7 +26,7 @@ public class Library{
     }
     public void displayMembers(){
         for (Member member: members){
-
+            System.out.println(member.getName());
         }
     }
 
