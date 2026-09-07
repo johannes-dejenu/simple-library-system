@@ -14,6 +14,12 @@ public class Main {
         Member member1 = new FacultyMember("Jason");
         Member member2 = new StudentMember("Johannes");
 
+        library1.addBook(book1);
+        library1.addBook(book2);
+
+        library1.registerMember(member1);
+        library1.registerMember(member2);
+
         
 
     }

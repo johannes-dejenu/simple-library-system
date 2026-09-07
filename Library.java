@@ -41,9 +41,11 @@ public class Library{
         System.out.println();
     }
     public void registerMember(Member member){
-        System.out.println("registering" + member.getName() + " to the " + getName() + " Library.");
+        System.out.println("registering " + member.getName() + " to the " + getName() + " Library.");
+        System.out.println();
         members.add(member);
         System.out.println(member.getName() + " is registered successfully.");
+        System.out.println();
     }
     public void borrowBook(Book book){
         book.setStatus(BookStatus.BORROWED);
